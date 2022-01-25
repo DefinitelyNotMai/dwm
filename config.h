@@ -100,9 +100,11 @@ static Key keys[] = {
     { M,            XK_m,           spawn,          SHCMD("st -e ncmpcpp") },
     { M|S,          XK_m,           spawn,          SHCMD("mpd") },
     { M|A,          XK_m,           spawn,          SHCMD("killall mpd") },
-    /* brightness & volume controls */
-    { 0,            XF86XK_MonBrightnessDown,   spawn,  SHCMD("brightnessctl set 5%-") },
-    { 0,            XF86XK_MonBrightnessUp,     spawn,  SHCMD("brightnessctl set 5%+") },
+    /* brightness controls */
+    { 0,            XF86XK_MonBrightnessDown,   spawn,  SHCMD("sudo bctl down") },
+    { 0,            XF86XK_MonBrightnessUp,     spawn,  SHCMD("sudo bctl up") },
+    { M|S,          XK_BackSpace,   spawn,          SHCMD("sudo bctl lowest") },
+    { M|C,          XK_BackSpace,   spawn,          SHCMD("sudo bctl highest") },
     /* app keybinds */
     { M|S,          XK_w,           spawn,          SHCMD("brave") },
     { M,            XK_w,           spawn,          SHCMD("torbrowser-launcher") },
