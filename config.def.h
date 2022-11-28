@@ -8,8 +8,8 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Iosevka Fixed Slab:size=8:style=Medium Extended" };
 static const char *colors[][3]      = {
     /*               fg         bg         border   */
-    [SchemeNorm] = { "#ffffff", "#282a36", "#282a36" },
-    [SchemeSel]  = { "#282a36", "#8a8ea8", "#8a8ea8" },
+    [SchemeNorm] = { "#cdd6f4", "#1e1e2e", "#45475a" },
+    [SchemeSel]  = { "#ffffff", "#89b4fa", "#89b4fa" },
 };
 
 /* tagging */
