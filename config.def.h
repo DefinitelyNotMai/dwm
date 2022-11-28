@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Iosevka Fixed Slab:size=10:style=Medium Extended" };
+static const char *fonts[]          = { "Iosevka Fixed Slab:size=8:style=Medium Extended" };
 static const char *colors[][3]      = {
     /*               fg         bg         border   */
     [SchemeNorm] = { "#ffffff", "#282a36", "#282a36" },
